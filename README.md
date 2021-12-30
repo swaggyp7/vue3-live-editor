@@ -7,20 +7,6 @@
 当前仅支持 vue3 defineComponent options 写法
 
 例：
-
-```js
-import { defineComponent } from "vue";
-
-const MyComponent = defineComponent({
-  data() {
-    return { count: 1 };
-  },
-  methods: {
-    increment() {
-      this.count++;
-    },
-  },
-});
-```
+![example](./public/md-images/example.png)
 
 后续更新 setup function 的支持
